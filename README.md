@@ -1,6 +1,3 @@
-# project-frontend-hackers
-project-frontend-hackers created by GitHub Classroom
-
 # Project Title
 Easy Quotes Insurance
 
