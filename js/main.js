@@ -267,6 +267,10 @@
 
 	};
 
+
+
+
+
 	var owlCrouselFeatureSlide = function() {
 		$('.owl-carousel').owlCarousel({
 			animateOut: 'fadeOut',
@@ -303,7 +307,34 @@
 		sliderMain();
 		stickyFunction();
 		owlCrouselFeatureSlide();
+		projectShow('professional_project');
 	});
 
 
 }());
+
+
+function projectShow(type){
+
+if(type =='professional_project'){
+
+	
+	$('.schoolProject').hide();
+	$('.professionalProject').show();
+	$('#professional_proj_link').addClass('active');
+	$('#school_proj_link').removeClass('active');
+
+	
+}
+
+else{
+
+	$('.schoolProject').show();
+	$('.professionalProject').hide();
+	$('#school_proj_link').addClass('active');
+	$('#professional_proj_link').removeClass('active');
+
+}
+
+
+}
